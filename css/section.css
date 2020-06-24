@@ -1,8 +1,15 @@
+.section__form{
+    border: none;
+}
+
 .form__labelText {
     width: 100%;
     max-width: 150px;
     display: inline-block;
     margin: 5px;
+    background-color: rgb(252, 252, 206);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .form__label {
@@ -41,4 +48,10 @@
 
 .form__label:invalid {
     background-color: hsl(0, 100%, 96%);
+}
+
+.form__resultText {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
 }

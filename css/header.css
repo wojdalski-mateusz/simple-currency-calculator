@@ -4,4 +4,6 @@
 
 .header__mainHeader {
     text-align: center;
+    background-color: rgb(252, 252, 206);
+    border-radius: 10px;
 }
